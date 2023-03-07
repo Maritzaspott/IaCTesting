@@ -54,6 +54,7 @@ class AntiPattern(AntiPatternObservable):
         self._path = None
         self._project_name = None
         self._antipattern_count = 0
+        self.new_variable = 'M was here'
         
     
     @property
